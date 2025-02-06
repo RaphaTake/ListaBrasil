@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListaBrasil.MainPage">
+
+<StackLayout BackgroundColor="#9afcda">
+    <StackLayout VerticalOptions="CenterAndExpand">
+
+
+        <Image Source="map.png" HeightRequest="300"
+                   VerticalOptions="End"/>
+        <Label HorizontalOptions="Center"
+                   FontSize="Caption" Text="I, Felipe Menegaz, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons"/>
+
+
+        <Frame BackgroundColor="#51d689">
+            <StackLayout>
+                <Label FontSize="Large" HorizontalOptions="Center" Text="Listagem de Estados e Municípios"/>
+                <Label FontSize="Medium" HorizontalOptions="Center" Text="Usando a API do IBGE"/>
+            </StackLayout>
+        </Frame>
+
+        <Button HorizontalOptions="Center" WidthRequest="300" Text="Avançar" Clicked="Button_Clicked" FontSize="Medium" BorderRadius="20" BackgroundColor="#c7344c" TextColor="White"/>
+    </StackLayout>
+
+</StackLayout>
+
+</ContentPage>
